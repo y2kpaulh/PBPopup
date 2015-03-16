@@ -14,6 +14,7 @@
 		F6D2314D1AB696F6009A8EB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D2314C1AB696F6009A8EB5 /* Images.xcassets */; };
 		F6D231501AB696F6009A8EB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6D2314E1AB696F6009A8EB5 /* LaunchScreen.xib */; };
 		F6D2315C1AB696F6009A8EB5 /* PBPopupExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D2315B1AB696F6009A8EB5 /* PBPopupExampleTests.m */; };
+		F6D231671AB69704009A8EB5 /* PBPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D231661AB69704009A8EB5 /* PBPopup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F6D231551AB696F6009A8EB5 /* PBPopupExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PBPopupExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D2315A1AB696F6009A8EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6D2315B1AB696F6009A8EB5 /* PBPopupExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBPopupExampleTests.m; sourceTree = "<group>"; };
+		F6D231651AB69704009A8EB5 /* PBPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPopup.h; sourceTree = "<group>"; };
+		F6D231661AB69704009A8EB5 /* PBPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPopup.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		F6D2313E1AB696F6009A8EB5 /* PBPopupExample */ = {
 			isa = PBXGroup;
 			children = (
+				F6D231651AB69704009A8EB5 /* PBPopup.h */,
+				F6D231661AB69704009A8EB5 /* PBPopup.m */,
 				F6D231431AB696F6009A8EB5 /* AppDelegate.h */,
 				F6D231441AB696F6009A8EB5 /* AppDelegate.m */,
 				F6D231461AB696F6009A8EB5 /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				F6D231481AB696F6009A8EB5 /* ViewController.m in Sources */,
 				F6D231451AB696F6009A8EB5 /* AppDelegate.m in Sources */,
+				F6D231671AB69704009A8EB5 /* PBPopup.m in Sources */,
 				F6D231421AB696F6009A8EB5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
